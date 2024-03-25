@@ -8,6 +8,7 @@ document.getElementById('search-btn').addEventListener('click', () => {
         fetch(url)
             .then(res => res.json())
             .then(data => displayTemp(data))
+        consol.log(data)
         }
         loadData();
 
